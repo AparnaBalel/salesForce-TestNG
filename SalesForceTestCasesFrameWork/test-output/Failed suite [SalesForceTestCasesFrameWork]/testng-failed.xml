@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [SalesForceTestCasesFrameWork]]">
+  <listeners>
+    <listener class-name="com.training.listeners.TestListener"/>
+  </listeners>
+  <test thread-count="5" name="Login(failed)(failed)">
+    <classes>
+      <class name="com.training.tests.ContactsTest">
+        <methods>
+          <include name="Method"/>
+          <include name="ViewContactTC29"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.training.tests.ContactsTest -->
+      <class name="com.training.tests.HomeTest">
+        <methods>
+          <include name="MyProfileTC06"/>
+          <include name="Method"/>
+        </methods>
+      </class> <!-- com.training.tests.HomeTest -->
+      <class name="com.training.tests.AccountTest">
+        <methods>
+          <include name="CreatAccountTC14"/>
+          <include name="teardown"/>
+          <include name="MergeAccountTC13"/>
+          <include name="Method"/>
+        </methods>
+      </class> <!-- com.training.tests.AccountTest -->
+      <class name="com.training.tests.RandomScenariosTest">
+        <methods>
+          <include name="Method"/>
+          <include name="teardown"/>
+          <include name="EditProfielTC34"/>
+        </methods>
+      </class> <!-- com.training.tests.RandomScenariosTest -->
+    </classes>
+  </test> <!-- Login(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [SalesForceTestCasesFrameWork]] -->
